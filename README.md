@@ -1,1 +1,1 @@
-This yōkai is headed to the moon.
+This little yōkai is headed to the moon.
