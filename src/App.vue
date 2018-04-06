@@ -2,19 +2,23 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Upload />
     <ApolloExample />
   </div>
 </template>
 
 <script>
+
 import HelloWorld from './components/HelloWorld.vue'
 import ApolloExample from './components/ApolloExample.vue'
+import Upload from './components/Upload.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    ApolloExample
+    ApolloExample,
+    Upload
   }
 }
 </script>
