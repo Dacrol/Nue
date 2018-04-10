@@ -1,7 +1,25 @@
 {
   "root": true,
   "extends": [
-    "plugin:vue/essential",
-    "@vue/standard"
-  ]
+    "standard",
+    "plugin:vue/recommended"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "semi": ["error", "never"]
+  },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "parser": "babel-eslint"
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  }
 }
