@@ -9,7 +9,7 @@
   ],
   "rules": {
     "semi": ["error", "never"],
-    "space-before-function-paren": "off",
+    "space-before-function-paren": "error",
     "vue/attributes-order": "off",
     "vue/max-attributes-per-line": "off"
   },
