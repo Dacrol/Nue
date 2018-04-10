@@ -8,7 +8,10 @@
     "vue"
   ],
   "rules": {
-    "semi": ["error", "never"]
+    "semi": ["error", "never"],
+    "space-before-function-paren": "off",
+    "vue/attributes-order": "off",
+    "vue/max-attributes-per-line": "off"
   },
   "parser": "vue-eslint-parser",
   "parserOptions": {
