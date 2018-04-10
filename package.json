@@ -44,6 +44,7 @@
     "eslint-plugin-vue": "^4.4.0",
     "graphql-tag": "^2.5.0",
     "node-sass": "^4.7.2",
+    "prettier-eslint": "^8.8.1",
     "sass-loader": "^6.0.6",
     "vue-cli-plugin-apollo": "^0.7.2",
     "vue-eslint-parser": "^2.0.3",
