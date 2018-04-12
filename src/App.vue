@@ -14,7 +14,7 @@ import ApolloExample from './components/ApolloExample.vue'
 import Upload from './components/Upload.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     HelloWorld,
     ApolloExample,
